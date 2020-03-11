@@ -13,12 +13,10 @@ public class Location {
 	private String lat;
 	//private String longitude;
 	private String timezone_id;
-/*	@JsonIgnore
 	private CurrentObservation currentObservation;
-	@JsonIgnore
-	private List<Forecasts> forecasts;*/
+	private List<Forecasts> forecasts;
 	
-	/*public CurrentObservation getCurrentObservation() {
+	public CurrentObservation getCurrentObservation() {
 		return currentObservation;
 	}
 	public void setCurrentObservation(CurrentObservation currentObservation) {
@@ -29,7 +27,7 @@ public class Location {
 	}
 	public void setForecasts(List<Forecasts> forecasts) {
 		this.forecasts = forecasts;
-	}*/
+	}
 	public String getWoeid() {
 		return woeid;
 	}
